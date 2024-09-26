@@ -1,7 +1,7 @@
 import numpy as np
 import copy, math
 import matplotlib.pyplot as plt
-from lossfunction import compute_cost_logistic
+from logisticlossfunction import compute_cost_logistic
 X = np.array([[0.5, 1.5], [1,1], [1.5, 0.5], [3, 0.5], [2, 2], [1, 2.5]])
 y = np.array([0, 0, 0, 1, 1, 1]).reshape(-1,1) 
 def sigmoid(x):
